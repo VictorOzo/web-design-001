@@ -17,7 +17,6 @@ nav .logo{
 
 nav .collapse{
     max-width: 70%;
-    /* margin-left: auto; */
 }
 
 .currency-slider {
@@ -251,6 +250,42 @@ nav .collapse{
     width: 60px;
     height: 10px;
     background-color: #c4c4c4;
+}
+
+
+.footer {
+    padding: 1em;
+    background-color: #17a2b8;
+    height: 30vh;
+}
+  
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+  
+.footer__logo img{
+    width: 150px;
+    height: 150px;
+}
+  
+.footer__links a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+  
+.footer__payments i {
+    font-size: 1.5em;
+    color: white;
+    margin-right: 0.35em;
+}
+
+.footer__payments span {
+    font-size: 1.15em;
+    color: white;
 }
 
 /* responsiveness */

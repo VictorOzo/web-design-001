@@ -1,21 +1,23 @@
 *{
     margin: 0;
-    padding: 0
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body, main{
+main{
     width: 100%;
     height: 100%;
 }
 
 .form-container {
-    max-width: 50%;
+    /* min-width: 50%; */
+    width: 100%;
     padding: 8px;
     margin: auto;
+    margin-bottom: 15px;
 }
 .form-signup .signup{
     margin-top: 40px;
-    /* margin-bottom: 10px; */
 }
 .form-signup, .signup, .wallet-details{
     width: 100%;
@@ -24,8 +26,6 @@ body, main{
     align-items: center;
     justify-content: center;
 }
-
-
 
 .signup input:first-child{
     margin-top: 15px;
@@ -100,8 +100,6 @@ body, main{
 .wallet-details .terms-condition p{
     margin: 0;
 }
-
-
 .form-signup button{
     width: 20%;
     height: 50px;
@@ -111,6 +109,42 @@ body, main{
     border: 1px solid #c4c4c4;
     text-align: center;
 }
+
+.footer {
+    padding: 1em;
+    background-color: #17a2b8;
+    height: 30vh;
+}
+  
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+  
+.footer__logo img{
+    width: 150px;
+    height: 150px;
+}
+  
+.footer__links a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+  
+.footer__payments i {
+    font-size: 1.5em;
+    color: white;
+    margin-right: 0.35em;
+}
+
+.footer__payments span {
+    font-size: 1.15em;
+    color: white;
+}
+
 
 @media screen and (max-width: 800px){
     .form-signup button{

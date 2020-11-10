@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main, .dashboard{
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard{
+    display: flex;
+}
+
+.dashboard .dashboard-links{
+    width: 20%;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid gray;
+    height: 60vh;
+}
+
+.dashboard-links .investor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+}
+
+.investor img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: crimson;
+}
+.investor .investor-details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.investor .investor-details p{
+    margin: 1px;
+}
+
+.investor .actions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.actions button{
+    width: 40%;
+    outline: none;
+    padding: 2px;
+    border: 1px solid lightgray;
+}
+
+.dash-links{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+.dash-links .link{
+    width: 100%;
+    margin: 4px;
+    border: 1px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    text-align: center;
+}
+
+.dash-links .link a{
+    text-decoration: none;
+    padding: 4px;
+    color: black;
+}
+
+
