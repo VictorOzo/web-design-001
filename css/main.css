@@ -37,6 +37,17 @@
       height: 100%;
       font-family: Poppins-Regular, sans-serif;
   }
+
+  nav{
+    width: 90%;
+    margin: auto;
+    color: white;
+
+}
+
+header{
+  background-color: #17a2b8;
+}
   
   /*---------------------------------------------*/
   a {
