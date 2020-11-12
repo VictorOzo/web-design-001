@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <title>EliteMiners</title>
@@ -24,17 +25,17 @@
               <a class="nav-link" href="index.html"><strong>HOME</strong><span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><strong>About Us</strong></a>
+              <a class="nav-link" href="#"><strong>ABOUT US</strong></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <strong>Dropdown</strong>  
+              <strong>DEPOSIT</strong>  
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="./dashboard/deposit.html">DEPOSIT</a>
+                <a class="dropdown-item" href="./dashboard/withdrawal.html">WITHDRAW</a>
+                <!-- <div class="dropdown-divider"></div> -->
+                <a class="dropdown-item" href="./dashboard/referral.html">REFERRAL</a>
               </div>
             </li>
             <form class="form-inline my-2 my-lg-0">
@@ -48,20 +49,7 @@
          
         </div>
       </nav>
-      <!-- <div class="carousel-container">
-        <div class="intro-text">
-          <h1 class="hero__heading"> <img src="images/logo.png" width="50" height="50" alt="" loading="lazy">
-          ELITE MINERS
-          </h1>
-          <p>
-            <strong>TOP LEVEL INVESTMENT</strong><br>
-            Elite Mners is a Crypto Investment/Mining company with a team of professionals who work to make profit through trading
-            on the volatility of crypto-currency and currency pairs both local and foreign.
-          </p>
-        </div>
-      </div> -->
       <div class="hero">
-       
         <h1 class="hero__heading"> <img src="images/logo.png" width="50" height="50" alt="" loading="lazy">ELITE MINERS</h1>
         <div class="hero__text">
           <strong>TOP LEVEL INVESTMENT</strong><br>
@@ -70,20 +58,26 @@
         </div>
       </div>
     </header>
-
+    <div class="currency-slider">
+      <div class="currency">
+      </div>
+    </div>
     <main>
       <section class="company-details">
-        <h1 class="about-us"><strong>Our Company</strong></h1>
-        <p>Elite Miners is a british company specialised in crypto-currency mining and trading of top currencies in the foreign exchange/stock market.Our team of 
-          professionals are highy trained and experienced to give a constant return/profit on inputs/investments. just like any other financial institiution , Elite Miners uses investments of our clients to trade worldwide and give a steady ROI.
 
-        </p>
-        <h1><strong>Our Goal</strong></h1>
-        <p>Our goal at Elite Miners is to imact a wide range of knowledge about crypto-currency trading, mining,investment and stock exchange
-          ethics on our clients and help them cultivate the lifestyle of saving while growing their investments.
-        </p>
-      
-        <div>
+        <div class="company-details-container"> 
+          <h1 class="about-us"><strong>Our Company</strong></h1>
+          <p>Elite Miners is a british company specialised in crypto-currency mining and trading of top currencies in the foreign exchange/stock market.Our team of 
+            professionals are highy trained and experienced to give a constant return/profit on inputs/investments. just like any other financial institiution , 
+            Elite Miners uses investments of our clients to trade worldwide and give a steady ROI.
+          </p>
+          <h1><strong>Our Goal</strong></h1>
+          <p>Our goal at Elite Miners is to imact a wide range of knowledge about crypto-currency trading, mining,investment and stock exchange
+            ethics on our clients and help them cultivate the lifestyle of saving while growing their investments.
+          </p>
+        </div>
+
+        <div class="details-container">
           <div class="details">
             <div class="vector">
               <svg width="20" height="20" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -178,5 +172,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>

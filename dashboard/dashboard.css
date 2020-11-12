@@ -5,6 +5,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header{
+    width: 100%;
+    background-color: #17a2b8;
+    color: white;
+}
+
+nav{
+    width: 90%;
+    margin: auto;
+    color: white;
+
+}
+
+
 body, .main-container, .dashboard{
     width: 100%;
     height: 100%;
@@ -22,8 +36,8 @@ body, .main-container, .dashboard{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    /* border: 1px solid gray; */
     height: 60vh;
+    border-right: 1px solid #17a2b8;
 }
 
 .dashboard-links .investor{
@@ -211,4 +225,18 @@ button a:hover{
     color: white;
   }
   
+
+  @media screen and (max-width: 1104px){
+    .investor .actions{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 70%;
+    }
+
+    .actions button{
+        margin: 8px;
+    }
+}
 

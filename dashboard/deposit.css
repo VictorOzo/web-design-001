@@ -127,3 +127,19 @@ form button{
 form button:focus{
     outline: none;
 }
+
+
+@media screen and (max-width: 1104px){
+    .investor .actions{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 70%;
+        border: 1px solid red;
+    }
+
+    .actions button{
+        margin: 8px;
+    }
+}
